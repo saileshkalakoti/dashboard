@@ -9,7 +9,7 @@
 //http://nbremer.blogspot.nl/2013/09/making-d3-radar-chart-look-bit-better.html
 import * as d3 from "d3"
 var RadarChart = {
-    draw: function(id, d, options){
+    draw: function(id, d, options, onClickHandler){
     var cfg = {
        radius: 5,
        w: 600,
@@ -208,6 +208,9 @@ var RadarChart = {
                           .transition(200)
                           .style("fill-opacity", cfg.opacityArea);
                     })
+          .on('click', function(d){
+            onClickHandler(d.axis)
+          })
           .append("svg:title")
           .text(function(j){return Math.max(j.value, 0)});
   

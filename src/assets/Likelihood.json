@@ -1,0 +1,18 @@
+[
+    {
+      "likelihood": 1,
+      "Meaning": "Potential"
+    },
+    {
+      "likelihood": 2,
+      "Meaning": "Possible"
+    },
+    {
+      "likelihood": 3,
+      "Meaning": "Probabble"
+    },
+    {
+      "likelihood": 4,
+      "Meaning": "Business as Usual"
+    }
+  ]

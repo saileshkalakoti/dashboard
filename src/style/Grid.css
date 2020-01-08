@@ -1,0 +1,32 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    color: #444;
+  }
+  
+  .box {
+    background-color: white;
+    color: rgb(133, 48, 48);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    min-height: 112px;
+    max-height: 112px;
+  }
+  .box-container {
+    background-color: white;
+    color: rgb(133, 48, 48);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .para {
+    text-align: "center";
+  }
+
+  .text {
+    text-align: center;
+  }
